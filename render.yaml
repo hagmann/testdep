@@ -6,7 +6,7 @@ services:
   env: node
   buildCommand: npm i
   startCommand: npm start
-- type: server
+- type: web
   plan: free
   rootDir: server
   name: app-backend-api
