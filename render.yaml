@@ -1,6 +1,7 @@
 services:
 - type: web
   plan: free
+  rootDir: client
   name: app-backend
   env: node
   buildCommand: npm i
